@@ -46,8 +46,8 @@ io.on('connection', function(socket){
 // })
 
 
-let PORT=process.env.PORT || 3000;
-http.listen(3000 , function(){
+let port=process.env.PORT || 3000;
+http.listen(port , function(){
     console.log("app started at port 3000 !!!");
 })
 
